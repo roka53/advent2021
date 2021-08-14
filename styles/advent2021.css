@@ -1,0 +1,79 @@
+
+/* mit noselect wird das markieren von Text verhindert */
+.noselect {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  }
+
+body  {
+	background-color: DeepSkyBlue;
+  background-image: url(../media/stern3.svg);
+  background-size: 400px;
+  background-position: center;
+  background-repeat: repeat-y;
+  width: 344px;
+
+  }
+
+
+/* stern.png*/
+h1 {
+  text-align:center;
+  grid-column: 1 / span 2;
+	margin: 10px;
+  color: yellow;
+
+  }
+
+#container2 {
+  visibility: hidden;
+  }
+
+img {
+  width: 344px;
+  display: inline-block;
+  }
+
+.container1	{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+
+  }
+	.box {
+	  width: 40px;
+    height: 50px;
+    color: yellow;
+    display: flex;
+  	align-items: center;
+  	justify-content: center;
+    background-color: darkblue;
+	  border:  1px solid red;
+	  margin:  6px auto;
+	  padding: 5px;
+    font-size: 32px;
+	}
+
+  #box6  {
+    width: 109px;
+    height:50px;
+    grid-column: 1 / span 2;
+    font-size:48px;
+    }
+
+  #box24  {
+    width: 178px;
+    height:124px;
+    grid-column: 2 / span 3;
+    grid-row: 3 / span 2;
+    font-size: 102px;
+    background-color: darkblue;
+    color: yellow;
+    }
+
+.container2 {
+  /* Container nach oben schieben */
+	position: absolute;
+	top: 118px;
+  }
