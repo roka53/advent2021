@@ -4,14 +4,13 @@
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
-  -ms-user-select: none;
   }
 
 body  {
 	background-color: DeepSkyBlue;
-  background-image: url(../media/stern3.svg);
+  background-image: url(../media/stern.svg);
   background-size: 400px;
-  background-position: center;
+  background-position: left;
   background-repeat: repeat-y;
   width: 344px;
 
@@ -21,7 +20,6 @@ body  {
 /* stern.png*/
 h1 {
   text-align:center;
-  grid-column: 1 / span 2;
 	margin: 10px;
   color: yellow;
 
